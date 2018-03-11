@@ -1,0 +1,151 @@
+
+/* FUENTES PERSONALIZADAS */
+@font-face {
+  font-family: 'Syncopate-Regular';
+  src: url('../fonts/Syncopate-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Syncopate-Bold';
+  src: url('../fonts/Syncopate-Bold.ttf');
+}
+
+
+html {
+  min-height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* PÁGINA */
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #434343;
+  color: #FFF;
+
+  background-image:
+    radial-gradient(
+      circle,
+      #282828 85%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 80%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 75%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 70%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 65%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 60%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 55%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 50%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 45%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 40%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 35%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 30%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 25%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      #282828 20%,
+      transparent 0
+      );
+
+  background-size: 1em 1em;
+
+  background-repeat: repeat-x;
+
+  background-position:
+    0 calc(100% - 1em),
+    0 calc(100% - 2em),
+    0 calc(100% - 3em),
+    0 calc(100% - 4em),
+    0 calc(100% - 5em),
+    0 calc(100% - 6em),
+    0 calc(100% - 7em),
+    0 calc(100% - 8em),
+    0 calc(100% - 9em),
+    0 calc(100% - 10em),
+    0 calc(100% - 11em),
+    0 calc(100% - 12em),
+    0 calc(100% - 13em),
+    0 calc(100% - 14em);
+
+}
+
+/* CABECERA */
+header {
+
+}
+
+/* TÍTULO */
+header h1 {
+
+}
+
+/* SUBTÍTULO */
+header p {
+
+}
+
+/* CABECERA Y PIE DE PÁGINA */
+header, footer {
+  text-align: center;
+  font-family: 'Syncopate-Regular';
+}
+
+/* PIE DE PÁGINA */
+footer {
+  background-color: #282828;
+  font-size: 12px;
+  width: 100%;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+}
